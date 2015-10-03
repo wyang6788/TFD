@@ -40,8 +40,8 @@
 	  <a href="index.html"><img id="tfd-logo" src="assets/tfd-white.png" height="150px" onmouseover="this.src='assets/tfd-orange.png'" onmouseout="this.src='assets/tfd-white.png'"/></a>
 	  <span id="message"></span>
       <div class="user-buttons">
-        <button class="sign-in"> Sign in </button>
-        <button class="sign-up"> Sign up </button>
+        <%= button_to "Sign in", login_path, :class => "button", :method => :get %>
+        <%= button_to "Sign up", signup_path, :class => "button", :method => :get %>
       </div>
     </div>
   </body>
