@@ -87,7 +87,8 @@ a:hover{
     min-height: 3em;
 }
 
-.main button{
+.main form{
+		display: inline;
     margin-right: 20px;
     background-color: #990000;
     color: #FFFFFF;
@@ -96,6 +97,11 @@ a:hover{
     border: none;
     border-radius: 8px;
     padding: 5px;
+}
+
+.main form input{
+		background-color: #990000;
+		border: none;
 }
 
 .main button:hover{
