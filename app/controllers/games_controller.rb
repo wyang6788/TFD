@@ -1,4 +1,4 @@
 class GamesController < ApplicationController
-	def dankdefense
+	def dank
 	end
 end
